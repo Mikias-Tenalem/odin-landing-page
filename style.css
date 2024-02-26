@@ -1,21 +1,22 @@
+/*Hero section*/
 .Hero-section {
     background-color: #1F2937;
-    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 64px;
     border: 4px #1F2937;
-    margin: 8px #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .Hero-section div {
-    font-family: 'roboto';
+    font-family: Arial, Helvetica, sans-serif;
 }
 .Hero-section .Header-logo {
     color: white;
     font-size: 24px;
     font-weight: bold;
     display: flex;
-    margin-left: 300px;
     justify-content: center;
 }
 .Hero-section .Link {
@@ -23,6 +24,32 @@
     font-size: 18px; 
     display: flex;
     gap: 20px;
-    margin-right: 300px;
-    justify-content: center; 
+}
+
+/* Body section*/
+.Body-section {
+    height: 400px;
+    padding-left: 100px #1F2937;
+    padding-right: 100px #1F2937;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    background-color: #1F2937;
+}
+.Description {
+    padding-left: 100px;
+}
+.Description .Main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 7px;
+}
+.Description .Description-main {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 7px;
 }
